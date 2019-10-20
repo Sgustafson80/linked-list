@@ -29,7 +29,6 @@ class Stack
         else
             @data = @data.next_node
             return @data.value
-        # I RETURN A VALUE
         end
     end
 
@@ -62,11 +61,3 @@ print_values(list)
 puts
 list = reverse_list(list)
 print_values(list)
-
-
-
-
-
-
-
-
